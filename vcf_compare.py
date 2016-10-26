@@ -1,7 +1,9 @@
 # compare two VCF files for missing contact records in either one
 # reads: PContacts.vcf, AContacts.vcf
 # creates: PContacts_add.vcf, AContacts_add.vcf
-# L. Shustek, 25 Oct 2016
+
+# Copyright (c) 2016, Len Shustek; see LICENSE.txt
+# 25 Oct 2016, L. Shustek, initial release
 
 import os
 import pprint
